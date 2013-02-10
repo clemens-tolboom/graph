@@ -1,0 +1,22 @@
+{
+    "name": "graph/graph",
+    "type": "library",
+    "description": "Graph",
+    "keywords": ["templating"],
+    "homepage": "https://github.com/clemens-tolboom/graph",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Clemens Tolboom",
+            "email": "clemens@build2be.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.2.4"
+    },
+    "autoload": {
+        "psr-0" : {
+            "graph" : "lib/"
+        }
+    },
+}
